@@ -1,0 +1,4 @@
+**/.trivycache/**
+!**/.trivycache/.gitkeep
+
+**/*.tar
