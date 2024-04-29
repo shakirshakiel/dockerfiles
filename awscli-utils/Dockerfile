@@ -13,7 +13,12 @@ RUN gem install aws-sdk-s3:1.146.0 \
                 aws-sdk-rds:1.223.0 \
                 aws-sdk-ec2:1.444.0 \
                 aws-sdk-cloudwatch:1.86.0 \
-                ox:2.14.18
+                aws-sdk-iam:1.94.0 \
+                aws-sdk-kafka:1.69.0 \
+                aws-sdk-emr:1.85.0 \
+                ox:2.14.18 \
+                pry:0.14.2 \ 
+                ruby-limiter:2.3.0 
 
 COPY config /root/.aws/config
 COPY vantage /root/vantage
